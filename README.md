@@ -57,7 +57,7 @@ Before you begin, ensure you have the following installed:
   - **Searching and extracting data** using `find`, `find_all`, and `select`
   - **Handling malformed HTML**
   
-  **Sample HTML**: `Test_HTML_1.html` provided in the `Sample_Files` folder.
+  **Sample HTML**: `Test_HTML_1.html` and `Test_HTML_2.html  provided in the `Sample_Files` folder.
 
 ### ⚙️ 2. **Selenium Basics**
 - **Notebook**: `Webscraping_Book2.ipynb`
@@ -67,7 +67,7 @@ Before you begin, ensure you have the following installed:
   - **Interacting with forms, buttons, and other elements**
   - **Automating user actions** like clicks and text entry
   
-  **Sample HTML**:`Test_HTML_2.html` provided in the `Sample_Files` folder.
+  **Sample HTML**:`Test_HTML_3.html` provided in the `Sample_Files` folder.
 
 ### 🎯 3. **Mini Project**
 - **Notebook**: `Webscraping_Book3_Test.ipynb`
