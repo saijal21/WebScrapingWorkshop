@@ -57,7 +57,7 @@ Before you begin, ensure you have the following installed:
   - **Searching and extracting data** using `find`, `find_all`, and `select`
   - **Handling malformed HTML**
   
-  **Sample HTML**: `Test_HTML_1.html` and `Test_HTML_2.html  provided in the `Sample_Files` folder.
+  **Sample HTML**: `Test_HTML_1.html` and `Test_HTML_2.html`  provided in the `Sample_Files` folder.
 
 ### ⚙️ 2. **Selenium Basics**
 - **Notebook**: `Webscraping_Book2.ipynb`
