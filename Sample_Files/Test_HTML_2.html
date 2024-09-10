@@ -1,60 +1,83 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Book Preferences Form</title>
-  </head>
-  <body>
-    <h2>Tell Us About Your Book Preferences</h2>
-    <form id="bookForm" action="https://www.goodreads.com/" method="get">
-      
-      <!-- Radio buttons for favorite genre -->
-      <h3>Select Your Favorite Genre</h3>
-      <label>
-        <input type="radio" name="genre" value="fiction" id="fiction"> Fiction
-      </label>
-      <label>
-        <input type="radio" name="genre" value="nonfiction" id="nonfiction"> Non-Fiction
-      </label>
-      <label>
-        <input type="radio" name="genre" value="fantasy" id="fantasy"> Fantasy
-      </label>
-      <label>
-        <input type="radio" name="genre" value="mystery" id="mystery"> Mystery
-      </label>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Scraping Practice</title>
+</head>
+<body>
+  <!-- Main content section -->
+  <main>
+    <h1>Web Scraping Practice Page</h1>
 
-      <br><br>
+    <!-- Headers and Text -->
+    <h2>Introduction</h2>
+    <p>This is a paragraph with text about web scraping. Web scraping allows you to extract data from websites. Below are some examples of lists, tables, images, and downloadable PDFs.</p>
 
-      <!-- Checkboxes for preferred formats -->
-      <h3>What Book Formats Do You Prefer?</h3>
-      <label>
-        <input type="checkbox" name="format" value="hardcover" id="hardcover"> Hardcover
-      </label>
-      <label>
-        <input type="checkbox" name="format" value="paperback" id="paperback"> Paperback
-      </label>
-      <label>
-        <input type="checkbox" name="format" value="ebook" id="ebook"> E-book
-      </label>
-      <label>
-        <input type="checkbox" name="format" value="audiobook" id="audiobook"> Audiobook
-      </label>
+    <!-- Images -->
+    <h2>Images</h2>
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Sample Image 1" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Sample Image 2" />
+    </div>
 
-      <br><br>
+    <!-- Downloadable PDFs -->
+    <h2>Download PDFs</h2>
+    <ul>
+      <li><a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" download>Download Dummy PDF 1</a></li>
+      <li><a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" download>Download Dummy PDF 2</a></li>
+    </ul>
 
-      <!-- Text area for favorite author -->
-      <h3>Who is Your Favorite Author?</h3>
-      <textarea id="favorite_author" rows="4" cols="50" placeholder="Write your favorite author here..."></textarea>
+    <!-- Lists (ordered and unordered) -->
+    <h2>Unordered List of Items</h2>
+    <ul>
+      <li class="item">Item 1</li>
+      <li class="item">Item 2</li>
+      <li class="item">Item 3</li>
+    </ul>
 
-      <br><br>
+    <h2>Ordered List of Steps</h2>
+    <ol>
+      <li>Step 1: Open your browser</li>
+      <li>Step 2: Inspect elements using Developer Tools</li>
+      <li>Step 3: Write Python code to scrape data</li>
+    </ol>
 
-      <!-- Text area for comments -->
-      <h3>Any Comments About Your Reading Habits?</h3>
-      <textarea id="comments" rows="4" cols="50" placeholder="Tell us about your reading habits..."></textarea>
+    <!-- Table Example -->
+    <h2>Table Example</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Occupation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice</td>
+          <td>30</td>
+          <td>Engineer</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>25</td>
+          <td>Designer</td>
+        </tr>
+      </tbody>
+    </table>
 
-      <br><br>
+    <!-- Navigation links -->
+    <h2>Useful Links</h2>
+    <div>
+      <a href="https://www.example.com" target="_blank">Visit Example Website</a><br>
+      <a href="https://www.python.org" target="_blank">Visit Python Website</a>
+    </div>
+  </main>
 
-      <!-- Submit button -->
-      <button type="submit">Submit</button>
-    </form>
-  </body>
+  <!-- Footer -->
+  <footer>
+    <p>Web Scraping Practice Page - 2024</p>
+  </footer>
+</body>
 </html>

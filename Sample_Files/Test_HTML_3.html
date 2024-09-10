@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Preferences Form</title>
+  </head>
+  <body>
+    <h2>Tell Us About Your Book Preferences</h2>
+    <form id="bookForm" action="https://www.goodreads.com/" method="get">
+      
+      <!-- Radio buttons for favorite genre -->
+      <h3>Select Your Favorite Genre</h3>
+      <label>
+        <input type="radio" name="genre" value="fiction" id="fiction"> Fiction
+      </label>
+      <label>
+        <input type="radio" name="genre" value="nonfiction" id="nonfiction"> Non-Fiction
+      </label>
+      <label>
+        <input type="radio" name="genre" value="fantasy" id="fantasy"> Fantasy
+      </label>
+      <label>
+        <input type="radio" name="genre" value="mystery" id="mystery"> Mystery
+      </label>
+
+      <br><br>
+
+      <!-- Checkboxes for preferred formats -->
+      <h3>What Book Formats Do You Prefer?</h3>
+      <label>
+        <input type="checkbox" name="format" value="hardcover" id="hardcover"> Hardcover
+      </label>
+      <label>
+        <input type="checkbox" name="format" value="paperback" id="paperback"> Paperback
+      </label>
+      <label>
+        <input type="checkbox" name="format" value="ebook" id="ebook"> E-book
+      </label>
+      <label>
+        <input type="checkbox" name="format" value="audiobook" id="audiobook"> Audiobook
+      </label>
+
+      <br><br>
+
+      <!-- Text area for favorite author -->
+      <h3>Who is Your Favorite Author?</h3>
+      <textarea id="favorite_author" rows="4" cols="50" placeholder="Write your favorite author here..."></textarea>
+
+      <br><br>
+
+      <!-- Text area for comments -->
+      <h3>Any Comments About Your Reading Habits?</h3>
+      <textarea id="comments" rows="4" cols="50" placeholder="Tell us about your reading habits..."></textarea>
+
+      <br><br>
+
+      <!-- Submit button -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
